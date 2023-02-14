@@ -35,10 +35,12 @@ for record in employee_details:
         employee_reward[record[0]] = {}
         employee_reward[record[0]]["Full name"] = record[1] + " " + record[2]
         employee_reward[record[0]]["New Salary"] = new_salary
-    print(f'Employee Name: {record[1] + " " + record[2]} Current salary: {record[5]} ')
+        print(
+            f'Employee Name: {record[1] + " " + record[2]} Current salary: {record[5]} '
+        )
 
 
-print(f'Employee Name: {record[1] + " " + record[2]} Current salary: {record[5]} ')
+# print(f'Employee Name: {record[1] + " " + record[2]} Current salary: {record[5]} ')
 
 print("=========================================")
 print()
